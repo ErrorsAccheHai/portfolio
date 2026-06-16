@@ -362,7 +362,7 @@ icon: "Code",
 
 {
 title: "System Administrator Training",
-issuer: "Your College Name",
+issuer: "University Of Hyderabad",
 date: "2025",
 credentialUrl: "",
 icon: "Server",
@@ -382,6 +382,7 @@ title: "Data Science Intern",
 description:
 "Completed internship at Nighwan Technology, working on Drone Orthomosaic Building Detection and AI Surveillance System projects.",
 icon: "Award",
+year: "2026",
 },
 
 {
@@ -389,6 +390,7 @@ title: "AI & Computer Vision Projects",
 description:
 "Developed real-world computer vision solutions using YOLOv8, OpenCV, WebODM, and Python.",
 icon: "Brain",
+year: "2026",
 },
 
 {
@@ -396,6 +398,7 @@ title: "Open Source Contributor",
 description:
 "Published multiple public projects on GitHub covering AI/ML, MERN Stack, and Data Structure Visualization.",
 icon: "Github",
+year: "2025",
 },
 
 {
@@ -403,6 +406,7 @@ title: "MERN Stack Developer",
 description:
 "Built full-stack applications including Smart Inventory Management System and Co-Live Platform.",
 icon: "Code",
+year: "2025",
 },
 ];
 
