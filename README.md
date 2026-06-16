@@ -2,7 +2,7 @@
 
 A modern, fully responsive personal portfolio website built with **Next.js 16**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. All content is managed from a single data file — no need to touch any component.
 
-🌐 **Live:** [yourportfolio.vercel.app](https://yourportfolio.vercel.app) <!-- update after deployment -->
+🌐 **Live:** https://portfolio-mu-ebon-94.vercel.app/
 
 ---
 
