@@ -98,17 +98,17 @@ export const skillCategories = [
       { name: "Redis",       level: 70 },
     ],
   },
-  {
-    category: "DevOps & Cloud",
-    icon: "Cloud",
-    skills: [
-      { name: "Docker",       level: 80 },
-      { name: "AWS",          level: 74 },
-      { name: "CI/CD",        level: 78 },
-      { name: "Kubernetes",   level: 62 },
-      { name: "Terraform",    level: 60 },
-    ],
-  },
+  // {
+  //   category: "DevOps & Cloud",
+  //   icon: "Cloud",
+  //   skills: [
+  //     { name: "Docker",       level: 80 },
+  //     { name: "AWS",          level: 74 },
+  //     { name: "CI/CD",        level: 78 },
+  //     { name: "Kubernetes",   level: 62 },
+  //     { name: "Terraform",    level: 60 },
+  //   ],
+  // },
   {
     category: "Soft Skills",
     icon: "Users",

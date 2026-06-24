@@ -59,7 +59,7 @@ export default function Skills() {
           label="Skills"
           title="My Technical Arsenal"
           highlight="Technical Arsenal"
-          description="Technologies and tools I've mastered over 5+ years of professional development."
+          description="Technologies and tools I've mastered over the years of professional development."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
