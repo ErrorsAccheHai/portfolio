@@ -48,7 +48,7 @@ export default function Footer() {
                 <li key={link.href}>
                   <a
                     href={link.href}
-                    className="text-sm transition-colors duration-200 hover:text-violet-400"
+                    className="text-sm transition-colors duration-200 hover:text-violet-400 nav-link-underline relative"
                     style={{ color: "var(--text-secondary)" }}
                   >
                     {link.label}
@@ -71,7 +71,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110 hover:border-violet-500"
+                  className="social-btn w-10 h-10 rounded-lg flex items-center justify-center"
                   style={{
                     background: "var(--bg-card)",
                     border: "1px solid var(--border)",

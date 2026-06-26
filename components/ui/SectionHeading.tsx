@@ -33,7 +33,7 @@ export default function SectionHeading({ label, title, highlight, description }:
     >
       {/* Small label pill */}
       <span
-        className="inline-block px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest mb-4"
+        className="section-label-badge inline-block px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-widest mb-4"
         style={{ background: "rgba(139,92,246,0.12)", color: "var(--accent-1)", border: "1px solid rgba(139,92,246,0.25)" }}
       >
         {label}

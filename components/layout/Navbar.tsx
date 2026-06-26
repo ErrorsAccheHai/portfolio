@@ -64,11 +64,11 @@ export default function Navbar() {
           <a
             href="#home"
             onClick={(e) => { e.preventDefault(); handleNavClick("#home"); }}
-            className="flex items-center gap-2 font-bold text-lg"
+            className="flex items-center gap-2 font-bold text-lg nav-logo-icon"
             aria-label="Go to top"
           >
             <span
-              className="w-8 h-8 rounded-lg flex items-center justify-center"
+              className="nav-logo-cube w-8 h-8 rounded-lg flex items-center justify-center"
               style={{ background: "var(--gradient)" }}
             >
               <Code2 size={16} className="text-white" aria-hidden="true" />
@@ -86,7 +86,7 @@ export default function Navbar() {
                   <a
                     href={link.href}
                     onClick={(e) => { e.preventDefault(); handleNavClick(link.href); }}
-                    className={`relative px-3 py-1.5 text-sm rounded-md transition-colors duration-200 ${
+                    className={`relative nav-link-underline px-3 py-1.5 text-sm rounded-md transition-colors duration-200 ${
                       isActive
                         ? "text-white"
                         : "hover:text-white"

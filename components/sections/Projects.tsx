@@ -39,7 +39,7 @@ export default function Projects() {
             <button
               key={cat}
               onClick={() => setActiveFilter(cat)}
-              className="px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 hover:scale-105"
+              className="filter-btn px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 hover:scale-105"
               style={
                 activeFilter === cat
                   ? { background: "var(--gradient)", color: "#fff" }
@@ -85,7 +85,7 @@ function ProjectCard({ project }: { project: Project }) {
       exit={{ opacity: 0, scale: 0.9 }}
       transition={{ duration: 0.3 }}
       whileHover={{ y: -6 }}
-      className="group flex flex-col rounded-2xl overflow-hidden transition-all duration-300"
+      className="hover-glow group flex flex-col rounded-2xl overflow-hidden transition-all duration-300"
       style={{
         background: "var(--glass-bg)",
         border: "1px solid var(--glass-border)",
@@ -148,7 +148,7 @@ function ProjectCard({ project }: { project: Project }) {
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="px-2.5 py-1 rounded-full text-xs font-medium"
+              className="hover-tag px-2.5 py-1 rounded-full text-xs font-medium"
               style={{ background: "rgba(139,92,246,0.1)", color: "var(--accent-1)", border: "1px solid rgba(139,92,246,0.2)" }}
             >
               {tag}

@@ -121,7 +121,7 @@ export default function Contact() {
                 <a
                   key={label}
                   href={href}
-                  className="flex items-center gap-4 p-4 rounded-2xl transition-all duration-200 hover:scale-[1.02]"
+                  className="contact-item flex items-center gap-4 p-4 rounded-2xl"
                   style={{ background: "var(--bg-card)", border: "1px solid var(--border)" }}
                   aria-label={`${label}: ${value}`}
                 >
@@ -152,7 +152,7 @@ export default function Contact() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={label}
-                    className="w-10 h-10 rounded-xl flex items-center justify-center transition-all duration-200 hover:scale-110 hover:-translate-y-1"
+                    className="social-btn w-10 h-10 rounded-xl flex items-center justify-center"
                     style={{ background: "var(--bg-card)", border: "1px solid var(--border)", color: "var(--text-secondary)" }}
                   >
                     <Icon size={17} aria-hidden="true" />

@@ -74,7 +74,7 @@ export default function About() {
                 {personalInfo.interests.map((interest) => (
                   <span
                     key={interest}
-                    className="px-3 py-1.5 rounded-full text-sm"
+                    className="hover-tag px-3 py-1.5 rounded-full text-sm"
                     style={{
                       background: "var(--bg-card)",
                       border: "1px solid var(--border)",
@@ -108,7 +108,7 @@ export default function About() {
               <motion.div
                 key={i}
                 whileHover={{ scale: 1.02, borderColor: "var(--border-hover)" }}
-                className="p-6 rounded-2xl transition-all duration-300"
+                className="hover-glow p-6 rounded-2xl transition-all duration-300"
                 style={{ background: "var(--bg-card)", border: "1px solid var(--border)" }}
               >
                 <div className="flex items-start justify-between gap-4 mb-3">
@@ -143,7 +143,7 @@ export default function About() {
               ].map(({ value, label }) => (
                 <div
                   key={label}
-                  className="p-4 rounded-2xl text-center"
+                  className="stat-card p-4 rounded-2xl text-center"
                   style={{ background: "var(--bg-card)", border: "1px solid var(--border)" }}
                 >
                   <div className="text-2xl font-bold gradient-text">{value}</div>

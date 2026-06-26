@@ -52,7 +52,7 @@ interests: [
 // ---------------------------------------------------------------------------
 export const socialLinks = {
   github: "https://github.com/ErrorsAccheHai",        // Your GitHub profile
-  linkedin: "https://linkedin.com/in/yourusername", // Your LinkedIn profile
+  linkedin: "https://www.linkedin.com/in/ashish-bharti-545296257/", // Your LinkedIn profile
   twitter: "https://twitter.com/24mcmc29",      // Your X / Twitter profile
   instagram: "https://instagram.com/arc_reactor01",  // Your Instagram profile
 };
@@ -348,15 +348,15 @@ export const certifications = [
 title: "Data Science Internship Certificate",
 issuer: "Nighwan Technology",
 date: "2026",
-credentialUrl: "",
+credentialUrl: "https://drive.google.com/file/d/18onYKR0bGhhuXfSq5UaCzv7Sbwm_ea4n/view?usp=sharing",
 icon: "Brain",
 },
 
 {
 title: "Frontend Developer (React)",
 issuer: "HackerRank",
-date: "2025",
-credentialUrl: "",
+date: "2026",
+credentialUrl: "https://drive.google.com/file/d/1bAwJLaQQAjEBEzjsQN_RON89urPmpNQu/view?usp=sharing",
 icon: "Code",
 },
 
@@ -364,14 +364,14 @@ icon: "Code",
 title: "System Administrator Training",
 issuer: "University Of Hyderabad",
 date: "2025",
-credentialUrl: "",
+credentialUrl: "https://drive.google.com/file/d/1jYJl065C2K3nJYISJSAi1TaMsxyPQoGY/view?usp=sharing",
 icon: "Server",
 },
 {
 title: "Code Detox - Certificate of Participation",
 issuer: "National Institute of Technology Tiruchirappalli (NIT Trichy)",
 date: "2025",
-credentialUrl: "",
+credentialUrl: "https://drive.google.com/file/d/1q0fg3liARDNoRA9DkazeJnFDn94FXcZO/view?usp=sharing",
 icon: "Award",
 },
 ];
@@ -477,5 +477,5 @@ export const seoConfig = {
     "Full Stack Developer specialising in React, Next.js, and Node.js. Explore my projects, experience, and skills.",
   keywords: "full stack developer, react developer, next.js, node.js, portfolio, web developer, typescript",
   ogImage: "/images/og-image.jpg",  // 1200×630 Open Graph image
-  siteUrl: "https://yourportfolio.com",
+  siteUrl: "https://ashish-bharti-portfolio.vercel.app/",
 };

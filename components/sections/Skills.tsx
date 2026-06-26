@@ -75,7 +75,7 @@ export default function Skills() {
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{ duration: 0.5, delay: catIndex * 0.1 }}
                 whileHover={{ scale: 1.02 }}
-                className="p-6 rounded-2xl transition-all duration-300"
+                className="hover-glow p-6 rounded-2xl transition-all duration-300"
                 style={{
                   background: "var(--glass-bg)",
                   border: "1px solid var(--glass-border)",
@@ -127,7 +127,7 @@ export default function Skills() {
               "System Design", "Linux", "Nginx", "Elasticsearch"].map((tag) => (
               <span
                 key={tag}
-                className="px-3 py-1.5 rounded-full text-sm transition-all duration-200 hover:scale-105 cursor-default"
+                className="hover-tag px-3 py-1.5 rounded-full text-sm cursor-default"
                 style={{
                   background: "var(--bg-card)",
                   border: "1px solid var(--border)",

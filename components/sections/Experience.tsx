@@ -53,7 +53,7 @@ export default function Experience() {
                   <div className={`w-full md:w-[calc(50%-2.5rem)] ${isLeft ? "md:pr-8" : "md:pl-8"}`}>
                     <motion.div
                       whileHover={{ scale: 1.02 }}
-                      className="p-6 rounded-2xl transition-all duration-300"
+                      className="hover-glow p-6 rounded-2xl transition-all duration-300"
                       style={{
                         background: "var(--glass-bg)",
                         border: "1px solid var(--glass-border)",
@@ -100,7 +100,7 @@ export default function Experience() {
                           {exp.technologies.map((tech) => (
                             <span
                               key={tech}
-                              className="px-2.5 py-1 rounded-full text-xs"
+                              className="hover-tag px-2.5 py-1 rounded-full text-xs"
                               style={{
                                 background: "var(--bg-card)",
                                 border: "1px solid var(--border)",

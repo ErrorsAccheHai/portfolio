@@ -101,7 +101,7 @@ export default function Hero() {
                 href={personalInfo.resumeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white transition-all duration-200 hover:opacity-90 hover:scale-105 hover:shadow-lg w-full sm:w-auto justify-center"
+                className="btn-primary-glow flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white transition-all duration-200 hover:opacity-90 hover:scale-105 hover:shadow-lg w-full sm:w-auto justify-center"
                 style={{ background: "var(--gradient)", boxShadow: "0 0 30px rgba(139,92,246,0.3)" }}
               >
                 <Download size={17} aria-hidden="true" />
@@ -141,7 +141,7 @@ export default function Hero() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={label}
-                  className="w-10 h-10 rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110 hover:-translate-y-1"
+                  className="social-btn w-10 h-10 rounded-lg flex items-center justify-center"
                   style={{ background: "var(--bg-card)", border: "1px solid var(--border)", color: "var(--text-secondary)" }}
                 >
                   <Icon size={18} aria-hidden="true" />
